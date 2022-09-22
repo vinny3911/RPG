@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmficha_hunter_caracteristicas_final1_svg" align="client" theme="dark" margins="{top=1}">
+    <style>#frmficha_hunter_caracteristicas_final1_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmficha_hunter_caracteristicas_final1_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+        <rectangle width="1097" height="1524" color="white">&#xD;
+            <image left="0" top="0" width="1097" height="1524" src="images/2.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+
+
+
+         <!-- Topo-->
+
+
+          <edit top="136" left="60" fontStyle="bold" fontSize="30" fontColor="White" width="480" height="40" field="nome" transparent="true"/>
+
+          <edit top="68" left="530" fontStyle="bold" fontSize="20" fontColor="White" width="240" height="30" transparent="true"/>
+          <edit top="68" left="792" fontStyle="bold" fontSize="20" fontColor="White" width="240" height="30" transparent="true"/>
+
+          <edit top="145" left="530" fontStyle="bold" fontSize="20" fontColor="White" width="240" height="30" transparent="true"/>
+          <edit top="145" left="792" fontStyle="bold" fontSize="20" fontColor="White" width="240" height="30" transparent="true"/>
+
+          <edit top="222" left="530" fontStyle="bold" fontSize="20" fontColor="White" width="240" field="nentipo" height="30" transparent="true"/>
+          <edit top="222" left="792" fontStyle="bold" fontSize="20" fontColor="White" width="240" height="30" transparent="true"/>
+
+
+
+
+
+
+
+          <!-- Circulo-->
+
+
+
+          <edit top="365" left="498" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" type="number" horzTextAlign="center" transparent="true"/>
+
+          <edit top="485" left="295" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" horzTextAlign="center" transparent="true"/>
+
+          <edit top="721" left="295" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" horzTextAlign="center" transparent="true"/>
+
+          <edit top="485" left="705" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" horzTextAlign="center" transparent="true"/>
+
+          <edit top="721" left="705" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" horzTextAlign="center" transparent="true"/>
+
+          <edit top="838" left="498" fontStyle="bold" fontSize="20" fontColor="White" width="100" height="30" horzTextAlign="center" transparent="true"/>
+
+
+
+
+
+
+          <!--bottom-->
+
+
+
+
+
+          <edit top="1045" left="63" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+          <edit top="1110" left="63" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+
+
+          <edit top="1215" left="94" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+          <edit top="1269" left="63" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+          <edit top="1323" left="94" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+          <edit top="1376" left="63" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+          <edit top="1430" left="94" fontStyle="bold" fontSize="25" fontColor="White" width="550" height="35" transparent="true"/>
+
+
+
+          <!--checkbox-->
+
+
+                <layout left="51" top="223" width="430" height="50">
+                    <!-- Check Hunter-->
+                      <imageCheckBox width="45" 
+                      checkedImage="images/circlao1.png" 
+                        uncheckedImage="images/circlao.png"/>
+                 </layout>  
+
+
+
+                 <layout left="346" top="223" width="430" height="50">
+                    <!-- Check Star1-->
+                      <imageCheckBox width="48" 
+                       checkedImage="images/star2.png" 
+                        uncheckedImage="images/ixxtrela.png"/>
+                 </layout>  
+
+
+
+                 <layout left="400" top="223" width="430" height="50">
+                    <!-- Check Star 2-->
+                      <imageCheckBox width="48" 
+                      checkedImage="images/star2.png" 
+                        uncheckedImage="images/ixxtrela.png"/>
+                 </layout> 
+
+
+
+                 <layout left="453" top="223" width="430" height="50">
+                    <!-- Check Star 3-->
+                      <imageCheckBox width="48" 
+                      checkedImage="images/star2.png" 
+                        uncheckedImage="images/ixxtrela.png"/>
+                 </layout>  
+
+
+
+                 <layout left="61" top="1207" width="430" height="50">
+                    <!-- Check Item 1-->
+                      <imageCheckBox width="30" 
+                      checkedImage="images/ball1.png" 
+                        uncheckedImage="images/ball.png"/>
+                 </layout>  
+
+
+
+
+                 <layout left="61" top="1317" width="430" height="50">
+                    <!-- Check Item 2-->
+                      <imageCheckBox width="30" 
+                      checkedImage="images/ball1.png" 
+                        uncheckedImage="images/ball.png"/>
+                 </layout>  
+
+
+
+
+                 <layout left="61" top="1426" width="430" height="50">
+                    <!-- Check Item 3-->
+                      <imageCheckBox width="30" 
+                      checkedImage="images/ball1.png" 
+                        uncheckedImage="images/ball.png"/>
+                 </layout>  
+
+
+
+                <textEditor left="653" top="902" height="76" width="389" fontSize="18" transparent="true"/>
+                <textEditor left="59" top="902" height="76" width="389" fontSize="18" transparent="true"/>
+                <textEditor left="653" top="1022" height="440" width="392" fontSize="18" transparent="true"/>
+
+
+
+<!-- Traços de Personalidades -->
+      <textEditor left="57" top="323" width="409" height="130" fontSize="18" fontColor="White"
+        transparent="true"/>
+      <!-- Características e Traços -->
+      <textEditor left="634" top="323" width="409" height="130" fontSize="18" fontColor="White"
+        transparent="true"/>
+      <!-- História -->
+      <textEditor left="57" top="513" width="201" height="338" fontSize="18" fontColor="White"
+        transparent="true"/>
+      <!-- Posses -->
+      <textEditor left="838" top="513" width="201" height="338" fontSize="18" fontColor="White"
+        transparent="true"/>
+
+
+
+
+          <rectangle color="#6a6866" left="409" top="538" width="280" height="280"/>
+
+          <!--imagepora-->
+        <image field="imagemDoPersonagem" editable="true" style="autoFit" 
+              left="411" top="540" width="275" height="275" />
+
+
+              <label left="513" top="510" text="Imagem:" fontSize="18" horzTextAlign="center" width="280" height="280" fontColor="White" fontFamily="ArialBlack"
+
+ fontStyle="bold"/>
+
+
+
+
+
+        </rectangle>
+    </scrollBox>
+</form>

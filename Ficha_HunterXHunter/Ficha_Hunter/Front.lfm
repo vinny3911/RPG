@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmficha_hunter_v21_svg" align="client" theme="dark" margins="{top=1}">
+    <style>#frmficha_hunter_v21_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmficha_hunter_v21_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+    	        <rectangle width="1097" height="1529" color="white">&#xD;
+        		<!-- Nome-->
+	        	     <edit fontStyle="bold" fontSize="30" fontColor="White" left="53" top="140" width="480" height="40" field="nome" transparent="true"/>
+	        	<!-- Nivel-->
+	        	     <edit fontSize="20" fontColor="White" left="530" top="68" type="number" transparent="true"/>
+	        	<!-- Player-->
+	        	     <edit fontSize="20" fontColor="White" left="795" top="68" width="220" transparent="true"/>
+	        	<!-- Tendencia-->
+	        	     <edit fontSize="20" fontColor="White" left="530" top="145" width="220" transparent="true"/>
+	        	<!-- Origem-->
+	        	     <edit fontSize="20" fontColor="White" left="795" top="145" width="220" transparent="true"/>
+	        	<!-- Nen-->
+	        	     <edit fontSize="20" field="nentipo" fontColor="White" left="530" top="222" width="220" transparent="true"/>
+	        	<!--XP-->
+	        		 <edit fontSize="20" fontColor="White" left="795" top="222" transparent="true"/>
+
+
+
+
+	        	<layout left="53" top="223" width="430" height="50">
+	        		<!-- Check Hunter-->
+	        			 <imageCheckBox width="48" 
+                        checkedImage="images/Bolinha1.png"
+                        uncheckedImage="images/Bolinha.png"/>
+  
+
+
+                </layout>
+
+
+
+					<layout left="347" top="223" width="430" height="50">
+                     	<!-- Check Estrela 1-->
+                    	<imageCheckBox width="48" 
+                        checkedImage="images/star1.png" 
+                        uncheckedImage="images/star.png"/>
+
+                    </layout>                 
+
+
+
+                <layout left="401" top="223" width="430" height="50">
+                       
+                    <!-- Check Estrela 2-->
+                    	<imageCheckBox width="48" 
+                        checkedImage="images/star1.png" 
+                        uncheckedImage="images/star.png"/>
+                 </layout>       
+
+
+
+                 <layout left="455" top="223" width="430" height="50">
+                    <!-- Check Estrela 3-->
+                    	<imageCheckBox width="48" 
+                        checkedImage="images/star1.png" 
+                        uncheckedImage="images/star.png"/>
+                 </layout>    
+                          
+
+
+                 <layout left="53" top="1107" width="430" height="50">
+                    <!-- Check Pericia FOR (Atletismo)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="53" top="1138" width="430" height="50">
+                    <!-- Check Pericia FOR (Escalar)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="53" top="1168" width="430" height="50">
+                    <!-- Check Pericia FOR (Nadar)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1107" width="430" height="50">
+                    <!-- Check Vit (Folego)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1138" width="430" height="50">
+                    <!-- Check Vit (Resistencia)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1168" width="430" height="50">
+                    <!-- Check Vit (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1198" width="430" height="50">
+                   <!-- Check Vit (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1228" width="430" height="50">
+                    <!-- Check Vit (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="222" top="1258" width="430" height="50">
+                    <!-- Check Vit (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="391" top="1107" width="430" height="50">
+                    <!-- Check Agi (Furtividade)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="391" top="1138" width="430" height="50">
+                    <!-- Check Agi (Acrobacia)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="391" top="1168" width="430" height="50">
+                    <!-- Check Agi (Roubar)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                <layout left="391" top="1198" width="430" height="50">
+                    <!-- Check Agi (Ambidestro)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="562" top="1108" width="430" height="50">
+                    <!-- Check Int (História)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="562" top="1138" width="430" height="50">
+                    <!-- Check Int (Natureza)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1168" width="430" height="50">
+                    <!-- Check Int (Investigação)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1198" width="430" height="50">
+                    <!-- Check Int (Medicina)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1228" width="430" height="50">
+                    <!-- Check Int (Religião)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1258" width="430" height="50">
+                    <!-- Check Int (Hackear)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1288" width="430" height="50">
+                    <!-- Check Int (Conhecimento)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+
+                <layout left="562" top="1318" width="430" height="50">
+                    <!-- Check Int (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1348" width="430" height="50">
+                    <!-- Check Int (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1378" width="430" height="50">
+                    <!-- Check Int (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                 <layout left="562" top="1408" width="430" height="50">
+                    <!-- Check Int (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+
+
+                 <layout left="732" top="1108" width="430" height="50">
+                    <!-- Check Sab (Percepção)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1138" width="430" height="50">
+                    <!-- Check Sab (Adestrar)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1168" width="430" height="50">
+                    <!-- Check Sab (Intuição)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1198" width="430" height="50">
+                    <!-- Check Sab (Manufatura)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1228" width="430" height="50">
+                    <!-- Check Sab (Sobrevivencia)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1258" width="430" height="50">
+                    <!-- Check Sab (Conhecimento)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1288" width="430" height="50">
+                    <!-- Check Sab (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1318" width="430" height="50">
+                    <!-- Check Sab (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1348" width="430" height="50">
+                    <!-- Check Sab (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="732" top="1378" width="430" height="50">
+                    <!-- Check Sab (Branco)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+
+                 <layout left="902" top="1108" width="430" height="50">
+                    <!-- Check Car (Atuação)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="902" top="1138" width="430" height="50">
+                    <!-- Check Car (Performance)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="902" top="1168" width="430" height="50">
+                    <!-- Check Car (Enganação)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="902" top="1198" width="430" height="50">
+                    <!-- Check Car (Intimidar)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+                 <layout left="902" top="1228" width="430" height="50">
+                    <!-- Check Car (Persuasão)-->
+                    	<imageCheckBox width="28" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+
+
+	        	<!-- HP-->
+	        		<edit horzTextAlign="center" fontSize="30" fontColor="White" left="60" top="345" width="160" height="40" transparent="true"/>
+	        	<!-- Nen-->
+	        		<edit horzTextAlign="center" fontSize="30" fontColor="White" left="265" top="345" width="154" height="40" transparent="true"/>
+	        	<!-- Dado de HP-->
+	        		<edit horzTextAlign="center" fontSize="30" fontColor="White" left="57" top="437" width="154" height="40" transparent="true"/>
+	        	<!-- Dado de Nen-->
+	        		<edit horzTextAlign="center" fontSize="30" fontColor="White" left="265" top="437" width="154" height="40" transparent="true"/>
+	        	
+ 
+
+	        	<!-- MOD NEN-->
+	        		 <edit fontStyle="bold" readOnly="true" horzTextAlign="center" fontSize="80" fontColor="White" height="200" width="200" left="449" top="570" field="modnen" transparent="true"/>
+
+
+	        	<!-- For status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="500" top="418" height="40" field="For" transparent="true"/>
+	        	<!-- Vit status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="295" top="538" height="40" field="Vit" transparent="true"/>
+	        	<!-- Agi status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="705" top="538" height="40" field="Agi" transparent="true"/>
+	        	<!-- Int status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="295" top="774" height="40" field="Int" transparent="true"/>
+	        	<!-- Car status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="705" top="774" height="40" field="Car" transparent="true"/>
+	        	<!-- Sab status-->
+	        		 <edit fontStyle="bold" type="number" horzTextAlign="center" fontSize="30" fontColor="White" left="500" top="892" height="40" field="Sab" transparent="true"/>
+
+
+
+	        	<!-- For mod-->
+                     <label  fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="535" top="468" height="97" width="97" field="modfor"/>
+                <!-- Vit mod-->
+                     <label fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="324" top="588" height="97" width="97" field="modvit"/>
+                <!-- Agi mod-->
+                     <label fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="732" top="588" height="97" width="97" field="modagi"/>
+                <!-- Int mod-->
+                     <label fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="324" top="824" height="97" width="97" field="modint"/>
+                <!-- Car mod-->
+                     <label fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="732" top="824" height="97" width="97" field="modcar"/>
+                <!-- Sab mod-->
+                     <label fontStyle="bold" horzTextAlign="center" fontSize="40" fontColor="White" left="532" top="944" height="97" width="97" field="modsab"/>
+ 
+
+
+
+	        		<dataLink field="For">
+		        		 <event name="onChange">
+
+		        		 	local For = tonumber(sheet.For);
+
+	                        if (For ~= nil) then
+	                                sheet.modfor = math.floor(For / 2) - 5; 
+
+	                                if sheet.modfor > 0 then
+	                                        sheet.modfor = "+" .. sheet.modfor;
+	                                end;
+	                        else
+	                                sheet.modfor = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+	        		<dataLink field="Int">
+		        		 <event name="onChange">
+
+		        		 	local Int = tonumber(sheet.Int);
+
+	                        if (Int ~= nil) then
+	                                sheet.modint = math.floor(Int / 2) - 5; 
+
+	                                if sheet.modint > 0 then
+	                                        sheet.modint = "+" .. sheet.modint;
+	                                end;
+	                        else
+	                                sheet.modint = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+	        		<dataLink field="Agi">
+		        		 <event name="onChange">
+
+		        		 	local Agi = tonumber(sheet.Agi);
+
+	                        if (Agi ~= nil) then
+	                                sheet.modagi = math.floor(Agi / 2) - 5; 
+
+	                                if sheet.modagi > 0 then
+	                                        sheet.modagi = "+" .. sheet.modagi;
+	                                end;
+	                        else
+	                                sheet.modagi = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+	        		<dataLink field="Vit">
+		        		 <event name="onChange">
+
+		        		 	local Vit = tonumber(sheet.Vit);
+
+	                        if (Vit ~= nil) then
+	                                sheet.modvit = math.floor(Vit / 2) - 5; 
+
+	                                if sheet.modvit > 0 then
+	                                        sheet.modvit = "+" .. sheet.modvit;
+	                                end;
+	                        else
+	                                sheet.modvit = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+	        		<dataLink field="Car">
+		        		 <event name="onChange">
+
+		        		 	local Car = tonumber(sheet.Car);
+
+	                        if (Car ~= nil) then
+	                                sheet.modcar = math.floor(Car / 2) - 5; 
+
+	                                if sheet.modcar > 0 then
+	                                        sheet.modcar = "+" .. sheet.modcar;
+	                                end;
+	                        else
+	                                sheet.modcar = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+	        		<dataLink field="Sab">
+		        		 <event name="onChange">
+
+		        		 	local Sab = tonumber(sheet.Sab);
+
+	                        if (Sab ~= nil) then
+	                                sheet.modsab = math.floor(Sab / 2) - 5; 
+
+	                                if sheet.modsab > 0 then
+	                                        sheet.modsab = "+" .. sheet.modsab;
+	                                end;
+	                        else
+	                                sheet.modsab = nil;
+	                        end
+
+		        		 </event>
+
+                	</dataLink>
+
+
+
+
+
+                				<!-- Pericias Vazias (Vit)--> 
+
+
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="251" top="1175" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="251" top="1205" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="251" top="1235" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="251" top="1265" transparent="true"/>
+
+
+
+
+                            	<!-- Pericias Vazias (Int)--> 
+
+
+
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="593" top="1325" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="593" top="1355" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="593" top="1385" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="593" top="1415" transparent="true"/>
+
+
+
+                				<!-- Pericias Vazias (Sab)--> 
+
+
+
+
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="764" top="1295" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="764" top="1325" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="764" top="1355" transparent="true"/>
+                			<edit fontSize="20" fontStyle="bold" fontColor="White" left="764" top="1385" transparent="true"/>
+
+
+
+
+
+                				<!-- Socorro jesusinho amado-->
+
+
+ <layout left="475" top="355" width="430" height="50">
+                    <!-- Check FOR-->
+                        <imageCheckBox width="38" 
+                        checkedImage="images/Lo1.png"
+                        uncheckedImage="images/Lo.png"/>
+                 </layout>    
+
+
+
+                 <layout left="820" top="591" width="430" height="50">
+                    <!-- Check AGI-->
+                    	<imageCheckBox width="38" 
+                        checkedImage="images/Lo1.png" 
+                        uncheckedImage="images/Lo.png"/>
+                 </layout>   
+
+
+
+                 <layout left="68" top="590" width="430" height="50">
+                    <!-- Check VIT-->
+                    	<imageCheckBox width="38" 
+                        checkedImage="images/Lo1.png" 
+                        uncheckedImage="images/Lo.png"/>
+                 </layout>    
+
+
+
+                 <layout left="31" top="833" width="430" height="50">
+                    <!-- Check INT-->
+                    	<imageCheckBox width="38" 
+                        checkedImage="images/Lo1.png" 
+                        uncheckedImage="images/Lo.png"/>
+
+                 </layout>    
+
+
+
+                 <layout left="823" top="833" width="430" height="50">
+                    <!-- Check CAR-->
+                    	<imageCheckBox width="38" 
+                        checkedImage="images/Lo1.png" 
+                        uncheckedImage="images/Lo.png"/>
+
+                 </layout>    
+
+
+
+                 <layout left="429" top="1031" width="430" height="50">
+                    <!-- Check SAB-->
+                    	<imageCheckBox width="38" 
+                    	checkedImage="images/Lo1.png" 
+                        uncheckedImage="images/Lo.png"/>
+                 </layout>    
+
+
+
+
+	        	<!-- Dinheiro Tri-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="72" top="965" height="40" transparent="true" type="number" />
+	        	<!-- Dinheiro Mi-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="200" top="965" height="40" type="number" transparent="true"/>
+	        	<!-- Dinheiro C-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="312" top="965" height="40" type="number" transparent="true"/>
+	        	<!-- Dinheiro Q-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="72" top="1025" height="40" type="number" transparent="true"/>
+	        	<!-- Dinheiro Bi-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="200" top="1025" height="40" type="number" transparent="true"/>
+	        	<!-- Dinheiro M-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="312" top="1025" height="40" type="number" transparent="true"/>
+
+
+	        	<!-- Prof Zetsu-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="145" top="1377" type="number" height="40" transparent="true"/>
+	        	<!-- Prof Gyo-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="320" top="1377" type="number" height="40" transparent="true"/>
+                <!-- Prof In-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="460" top="1377" type="number" height="40" transparent="true"/>
+                <!-- Prof Shu-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="145" top="1435" type="number" height="40" transparent="true"/>
+	        	<!-- Prof Ko-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="320" top="1435" type="number" height="40" transparent="true"/>
+	        	<!-- Prof En-->
+	        		 <edit fontStyle="bold" horzTextAlign="center" fontSize="30" fontColor="White" left="460" top="1435" type="number" height="40" transparent="true"/>
+
+
+
+                  <layout left="50" top="1375" width="430" height="50">
+                    <!-- Check Zetsu-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                  <layout left="236" top="1373" width="430" height="50">
+                    <!-- Check Gyo-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                  <layout left="409" top="1370" width="430" height="50">
+                    <!-- Check In-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                  <layout left="50" top="1436" width="430" height="50">
+                    <!-- Check Shu-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+                  <layout left="236" top="1434" width="430" height="50">
+                    <!-- Check Ko-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>   
+
+
+
+                  <layout left="409" top="1430" width="430" height="50">
+                    <!-- Check En-->
+                    	<imageCheckBox width="36" 
+                    	checkedImage="images/bo3.png" 
+                        uncheckedImage="images/bo2.png"/>
+                 </layout>  
+
+
+
+	        	
+
+	        	<!-- BEI For-->
+	        		 <edit fontSize="20" fontColor="White" left="730" top="348" transparent="true" type="number" field="beifor"/>
+	        	<!-- BEI Int-->
+	        		 <edit fontSize="20" fontColor="White" left="813" top="348" transparent="true" type="number" field="beiint"/>
+	        	<!-- BEI Vit-->
+	        		 <edit fontSize="20" fontColor="White" left="730" top="402" transparent="true" type="number" field="beivit"/>
+	        	<!-- BEI Sab-->
+	        		 <edit fontSize="20" fontColor="White" left="813" top="402" transparent="true" type="number" field="beisab"/>
+	        	<!-- BEI Agi-->
+	        		 <edit fontSize="20" fontColor="White" left="730" top="459" transparent="true" type="number" field="beiagi"/>
+	        	<!-- BEI Car-->
+	        		 <edit fontSize="20" fontColor="White" left="813" top="459" transparent="true" type="number" field="beicar"/>
+
+
+
+
+
+                								<!--MEIA MEIA PIXEU-->
+	        	
+	        	<!--AC-->
+	        		 <edit horzTextAlign="center" type="number" fontStyle="bold" fontSize="55" fontColor="White" left="876" top="370" width="165" height="60" transparent="true"/>
+	        
+
+
+
+            <image left="0" top="0" width="1097" height="1529" src="images/check0.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>

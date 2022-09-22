@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form dataType="HxH_Ficha_v3" formType="sheetTemplate" title="Ficha_HxH" name="HunterxHunterFicha" theme="dark">
+	
+	<tabControl align="client" name="pgcPrincipal">
+		<tab title="Frente">
+			<import file="front.lfm"/>
+		</tab>
+
+		<tab title="Características">
+			<import file="2.lfm"/>
+		</tab>
+
+
+		<tab title="Habilidades">
+			<import file="Anot.xml"/>
+		</tab>
+
+		
+
+		<tab title="Anotações">
+					<scrollBox align="client">
+			<rectangle width="1110" height="2600">
+				<richEdit align="client" backgroundColor="#3f3d3b" defaultFontColor="white" field="txt"/>
+
+			</rectangle>
+		 </scrollBox>
+		</tab>
+	</tabControl>		
+</form>
